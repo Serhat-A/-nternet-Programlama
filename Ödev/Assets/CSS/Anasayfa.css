@@ -1,0 +1,56 @@
+
+.dropdown:hover .üstçizgi{
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    animation: çizgi 2s ease;
+    display: block;
+}
+main{
+  height: 1200px;
+}
+#çizgi{
+   width: 20px;
+   height: 600px;
+   margin-left: 25px;
+   float: left;
+   margin-top: 25px;
+   background-color: white;
+   animation: çizgis 2s linear;
+   animation-timing-function: ease;
+   border-radius: 5px;
+}
+
+.main-hiza{
+   width: 90%;
+   height: 600px;
+   margin-left: 30px;
+   margin-top: 25px;
+   float: left;
+   animation: çizgis 2s ease;
+}
+.iç-hiza{
+  animation: çizgis 2s ease;
+   width: 98%;
+   float: left;
+   height: 125px;
+   margin: 11px;
+}
+.iç-hiza p{
+   float: right;
+}
+.iç-hiza img{
+   height: 100%;
+}
+.paragraf{
+  font-family: 'Josefin Sans', sans-serif;
+  width: 65%;
+  float: right;
+  height: 125px;
+  animation: çizgis 2s ease;
+}
+.paragraf p{
+  margin: 10px;
+  font-size: 16px;
+  animation: parag 1s ease;
+}

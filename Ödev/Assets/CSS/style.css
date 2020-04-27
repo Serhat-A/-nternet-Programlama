@@ -1,0 +1,187 @@
+*{
+    border-style: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+.b-s{
+    font-family: 'Raleway', sans-serif;
+}
+#bg-c{
+    background-color: grey;
+    width: 100%;
+    height: 120px;
+    float: left;
+    position: absolute;
+    z-index: -2;
+    opacity: 0.5;
+}
+#Hiza{
+    width: 100%;
+    height: 120px;
+
+}
+#logo{
+    float: left;
+    width: 30%;
+    height: 120px;
+}
+#logo a:link{
+    text-decoration: none;
+    font-size: 50px;
+}
+#logo a p{
+    color: black;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.üstçizgi{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    display: none;
+}
+.dropdown:hover .üstçizgi{
+    display: block;
+    animation: çizgi 1s ease-in-out;
+}
+.nav-bar{
+    float: right;
+    margin-top: 35px;
+    position: relative;
+    margin-right: 25px;
+    font-size: 25px;
+}
+.nav-bar a:link{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar a:visited{
+    color: black;
+}
+.nav-bar:hover{
+
+}
+.dropdown{
+    float: right;
+    margin-top: 35px;
+    position: relative;
+}
+.dropdown-content{
+    display: none;
+    left: -30px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    font-size: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    margin-top: 5px;
+    padding-left: 20px;
+    float: left;
+    margin-left: 5px;
+    padding: 20px;
+}
+.dropdown-content a:hover{
+    background-color: black;
+    color: white;
+}
+.dropdown:hover .dropdown-content {
+    display: table;
+  }
+  .abc{
+      margin-top: 5px;
+  }
+  #bg-cd{
+    background-color: grey;
+    width: 100%;
+    height: 150px;
+    float: left;
+    position: absolute;
+    z-index: -2;
+    opacity: 0.5;
+}
+#footer-hiza{
+    width: 100%;
+    height: 150px;
+}
+#sol-kısım{
+    font-family: 'Raleway', sans-serif;
+    width: 33%;
+    height: 150px;
+    float: left;
+    margin-left: 2px;
+}
+#orta-kısım{
+    width: 33%;
+    height: 150px;
+    float: left;
+    margin-left: 2px;
+    font-family: 'Raleway', sans-serif;
+}
+footer{
+    margin-top: 25px;
+}
+#sag-kısım{
+    width: 33%;
+    height: 150px;
+    margin-left: 2px;
+    float: left;
+}
+.ul{
+    margin-top:20px;
+    margin-left: 50px;
+    list-style-type: none;
+    text-align: justify;
+}
+.ul li{
+    margin-top:5px;
+
+}
+.ul li a:link{
+    text-decoration: none;
+    color: black;
+}
+.ul li a:visited{
+    text-decoration: none;
+    color: black;
+}
+#orta-kısım p{
+ 
+}
+.footermail{
+    margin-top:6px;
+}
+#sag-kısım img{
+    width: 120px;
+    margin-top: 5px;
+    margin-left:150px;
+}
+#sag-kısım p{
+    text-align: center;
+}
+@keyframes parag{
+    0%{    font-size: 0px;}
+    25%{    font-size: 5px;}
+    50%{    font-size: 10px;}
+    75%{    font-size: 15px;}
+    100%{    font-size: 16px;}
+  }
+  @keyframes çizgis{
+    0%{height: 0;}
+    25%{height: 100;}
+    50%{height: 200;}
+    75%{height: 300;}
+    100%{height: 400;}
+ }
+ @keyframes çizgi{
+    0%  {width: 0;}
+    25% {width: 100;}
+    50% {width: 200;}
+    75% {width: 300;}
+    100%{width: 400;}
+  }

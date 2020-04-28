@@ -6,21 +6,21 @@ main{
 }
 .maçların-hizası{
     width: 100%;
-    border: 1px solid black;
+
     height: auto;
 }
 .mac{
     width: 90%;
     height: auto;
     margin: auto;
-    margin-top: 35px;
-    border: 1px solid black;
+    margin-top: 75px;
+
 }
 .drop-mac{
     width: 100%;
     height: 70px;
     margin: auto;
-    border: 1px solid red;
+
 }
 .dropdown-mac{
     width: 90%;
@@ -30,17 +30,26 @@ main{
     animation: çizgis 1s ease-in-out;
     display: none;
 }
-.mac:active .dropdown-mac{
+.mac:hover .dropdown-mac{
     display: block;
 }
 .mac-sol{
     width: 39%;
     height: 70px;
     float: left;
-    border: 1px solid black;
+    border: 3px solid black;
+    background-image: linear-gradient( 135deg, #F05F57 10%, #360940 100%);    border-radius: 0px 0px 0px 35px;
     overflow: hidden;
 }
+.mac-sol p{
+    font-size:30px;
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;  
+}
+
 .mac-sol img{
+    float: left;
     width: 150px;
     margin: -25px;
 }
@@ -48,15 +57,16 @@ main{
     width: 150px;
     float: right;
     margin: -25px;
+
+    
 }
-.mac:active .mac-sag{
-    overflow: visible;
-    animation: resim 1s ease-in-out;
+.mac-sag p{
+    font-size:30px;
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
 }
-.mac:active .mac-sol{
-    overflow: visible;
-    animation: resim 1s ease-in-out;
-}
+
 @keyframes resim{
     0%{ opacity: 0.5;}
         25%{opacity: 0.60;}
@@ -65,16 +75,47 @@ main{
         100%{opacity: 1;}
 }
 .mac-skor{
-    width: 21%;
+    width: 20%;
     height: 70px;
     margin-left: 3px;
     float: left;
-    border: 1px solid black;
+    border: 3px solid black;
+}
+.mac-skor p{
+    font-size: 75px;
+    margin: 5px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .mac-sag{
     width: 39%;
     height: 70px;
-    border: 1px solid black;
+    border: 3px solid black;
     float: right;
     overflow: hidden;
+    border-radius: 0px 0px 35px 0px;
+    background-color: black;
+    background-image: linear-gradient( 135deg, #360940 10%, #F05F57 100%); 
+}
+.dropdown-sol{
+    width: 50%;
+    height: 220px;
+    border: 1px solid black;
+    float: left;
+    animation: çizgis 1s ease-in-out;
+}
+.dropdown-sag{
+    float: right;
+    width: 49%;
+    height: 220px;
+    border: 1px solid black;
+    animation: çizgis 1s ease-in-out;
+}
+.gamer{
+    width: 100%;
+    margin-top: 2px;
+    height: 40px;
+    border: 1px solid blue;
+    animation: çizgis 1s ease-in-out;
 }
